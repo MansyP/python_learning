@@ -1,0 +1,5 @@
+tu=tuple(input("")).split("")
+li=list(tu)
+li.append('m')
+tu=tuple(li)
+print(tu)
