@@ -1,0 +1,5 @@
+tu=tuple(input("")).split("")
+li=list(tu)
+li.remove(li[2])
+tu=tuple(li)
+print(tu)
